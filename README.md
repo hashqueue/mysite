@@ -11,7 +11,7 @@
     cd PycharmProjects/mysite/
     pip3 install -i https://pypi.douban.com/simple -r requirements.txt
     ```
-* 项目根目录下进行数据迁移
+* 项目根目录下进行数据迁移(本项目使用的django默认的sqlite3数据库,db.sqlite3文件已随项目上传,里边附带了一些测试数据,所以可忽略此步骤)
     ```bash
     python3 manage.py makemigrations
     python3 manage.py migrate
