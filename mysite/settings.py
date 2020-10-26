@@ -56,7 +56,8 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # DIRS 是一个包含多个系统目录的文件列表，用于在载入 Django 模板时使用，是一个待搜索路径。
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         # 会让 DjangoTemplates 在每个 INSTALLED_APPS 文件夹中寻找 "templates" 子目录
         'APP_DIRS': True,
         'OPTIONS': {
