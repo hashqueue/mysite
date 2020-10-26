@@ -1,4 +1,5 @@
 ## 学习Django官网投票项目的Demo
+[教程链接中文版](https://docs.djangoproject.com/zh-hans/2.2/intro/)
 ### 如何运行项目
 * clone此项目到本地
     ```bash
